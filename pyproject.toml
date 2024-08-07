@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "isitaproblem"
+version = "0.1.0"
+description = ""
+authors = ["Jason Barrella <32719308+jbarrella@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+praw = "7.7.1"
+python-dotenv = "1.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "8.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
